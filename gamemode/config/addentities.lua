@@ -116,15 +116,13 @@ DarkRP.createShipment("Sniper rifle", {
     allowed = {TEAM_GUN},
     category = "Snipers",
 })
-
 DarkRP.createEntity("Drug lab", {
     ent = "drug_lab",
-    model = "models/props_lab/crematorcase.mdl",
+    model = "models/freeman/methlab.mdl",
     price = 400,
     max = 3,
     cmd = "buydruglab",
-    allowed = {TEAM_GANG, TEAM_MOB}
-})
+   })
 
 DarkRP.createEntity("Money printer", {
     ent = "money_printer",
