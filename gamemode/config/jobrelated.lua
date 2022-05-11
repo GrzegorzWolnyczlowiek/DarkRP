@@ -45,7 +45,7 @@ TEAM_POLICE = DarkRP.createJob("Civil Protection", {
         The Battering Ram can break down the door of a criminal, with a warrant for their arrest.
         The Battering Ram can also unfreeze frozen props (if enabled).
         Type /wanted <name> to alert the public to the presence of a criminal.]],
-    weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "stunstick", "door_ram", "weaponchecker"},
+    weapons = {"arrest_stick", "unarrest_stick", "weapon_pistol", "stunstick", "weaponchecker"},
     command = "cp",
     max = 4,
     salary = GAMEMODE.Config.normalsalary * 1.45,
@@ -129,7 +129,7 @@ TEAM_MEDIC = DarkRP.createJob("Medic", {
         Right click with the Medical Kit to heal yourself.]],
     weapons = {"med_kit"},
     command = "medic",
-    max = 3,
+    max = 1,
     salary = GAMEMODE.Config.normalsalary,
     admin = 0,
     vote = false,
