@@ -45,7 +45,7 @@ TEAM_POLICE = DarkRP.createJob("Civil Protection", {
         The Battering Ram can break down the door of a criminal, with a warrant for their arrest.
         The Battering Ram can also unfreeze frozen props (if enabled).
         Type /wanted <name> to alert the public to the presence of a criminal.]],
-    weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "stunstick", "door_ram", "weaponchecker"},
+    weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "stunstick", "weaponchecker"},
     command = "cp",
     max = 4,
     salary = GAMEMODE.Config.normalsalary * 1.45,
@@ -193,7 +193,7 @@ TEAM_HOBO = DarkRP.createJob("Hobo", {
         Beg for your food and money
         Sing for everyone who passes to get money
         Make your own wooden home somewhere in a corner or outside someone else's door]],
-    weapons = {"weapon_bugbait"},
+    weapons = {},
     command = "hobo",
     max = 5,
     salary = 0,
